@@ -1,0 +1,12 @@
+{
+    "name": "Recipe Unit Converter",
+    "description": "Convert dumb american units to proper imperial ones.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "action": {
+        "default_popup": "html/popup.html"
+    }
+  }
